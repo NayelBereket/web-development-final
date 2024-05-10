@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gull-gray-700 py-2">
+    <header class="bg-gull-gray-800 py-2">
         <main class="container mx-auto flex w-full items-center justify-between py-4 px-6">
             <div class="flex items-center"> <!-- Changed from text-white to flex and items-center -->
                 <img src="/Users/lenovo/Downloads/Asset 7.png" alt="Skilled Strings Logo" class="h-8 mr-2"> <!-- Replace "/path/to/your/image.png" with the actual path to your image -->
@@ -13,7 +13,7 @@
                 </nav> 
             </div>
                 
-            <nav class="text-buttercup-500 flex flex-row justify-end gap-4">
+            <nav class="text-gull-gray-200 flex flex-row justify-end gap-4">
                 <nuxt-link to="/"> Home </nuxt-link>
                 <nuxt-link to="/page1"> About Us </nuxt-link>
                 <nuxt-link to="/page2"> Contact US </nuxt-link>
