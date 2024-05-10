@@ -1,9 +1,9 @@
 <template>
     <footer class="bg-gull-gray-800 border-t text-center border gray-300 p-8">
-                <div class="text-buttercup-500 mb-6 text-lg"> 
+                <div class="text-buttercup-300 mb-6 text-xl font-semibold"> 
                     <nuxt-link to="/"> Skilled Strings </nuxt-link>
                 </div>
-                <nav class="text-gull-gray-200 text-center gap-6">
+                <nav class="text-gull-gray-200 text-center gap-10">
                     <!--nuxt-link to="/"> Home | </nuxt-link-->
                     <nuxt-link to="/page1"> About Us | </nuxt-link>
                     <nuxt-link to="/page2"> Contact Us | </nuxt-link>

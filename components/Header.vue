@@ -4,7 +4,7 @@
             <div class="flex items-center"> <!-- Changed from text-white to flex and items-center -->
                 <!-- img src="/Users/lenovo/Downloads/Asset 7.png" alt="Skilled Strings Logo" class="h-8 mr-2" -- > <-- Replace "/path/to/your/image.png" with the actual path to your image -->
                 <nav>
-                    <div class="w-full text-center text-lg font-extrabold sm:w-fit sm:text-left">
+                    <div class="w-full text-center text-xl font-extrabold sm:w-fit sm:text-left">
                         <nuxt-link to="/"> 
                             <span class="text-buttercup-500">Skilled</span>
                             <span class="dark:text-white">Strings</span>
@@ -13,7 +13,7 @@
                 </nav> 
             </div>
                 
-            <nav class="text-gull-gray-200 flex flex-row justify-end gap-4">
+            <nav class="text-gull-gray-200 text-md flex flex-row justify-end gap-4">
                 <!--nuxt-link to="/"> Home </nuxt-link-->
                 <nuxt-link to="/page1"> About Us </nuxt-link>
                 <nuxt-link to="/page2"> Contact US </nuxt-link>
