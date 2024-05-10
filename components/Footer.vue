@@ -4,7 +4,7 @@
                     <nuxt-link to="/"> Skilled Strings </nuxt-link>
                 </div>
                 <nav class="text-gull-gray-200 text-center gap-6">
-                    <nuxt-link to="/"> Home | </nuxt-link>
+                    <!--nuxt-link to="/"> Home | </nuxt-link-->
                     <nuxt-link to="/page1"> About Us | </nuxt-link>
                     <nuxt-link to="/page2"> Contact Us | </nuxt-link>
                     <nuxt-link to="/page3"> Our Services | </nuxt-link>
