@@ -6,7 +6,7 @@
                 <nav>
                     <div class="w-full text-center text-xl font-extrabold sm:w-fit sm:text-left">
                         <nuxt-link to="/"> 
-                            <span class="text-buttercup-500">Skilled</span>
+                            <span class="text-buttercup-500 hover:text-buttercup-400 ">Skilled</span>
                             <span class="dark:text-white">Strings</span>
                         </nuxt-link>
                     </div>
@@ -18,11 +18,11 @@
                 
             <nav class="text-gull-gray-200 text-md flex flex-row justify-end gap-4">
                 <!--nuxt-link to="/"> Home </nuxt-link-->
-                <nuxt-link to="/page1"> About Us </nuxt-link>
-                <nuxt-link to="/page2"> Contact US </nuxt-link>
-                <nuxt-link to="/page3"> Our Services </nuxt-link>
-                <nuxt-link to="/page4"> Blog </nuxt-link>
-                <nuxt-link to="/page5"> Our Instructors </nuxt-link>
+                <nuxt-link to="/page1" class="text-gull-gray-200 hover:text-buttercup-500"> About Us </nuxt-link>
+                <nuxt-link to="/page2" class="text-gull-gray-200 hover:text-buttercup-500"> Contact US </nuxt-link>
+                <nuxt-link to="/page3" class="text-gull-gray-200 hover:text-buttercup-500"> Our Services </nuxt-link>
+                <nuxt-link to="/page4" class="text-gull-gray-200 hover:text-buttercup-500"> Blog </nuxt-link>
+                <nuxt-link to="/page5" class="text-gull-gray-200 hover:text-buttercup-500"> Our Instructors </nuxt-link>
             </nav>
         </main>
     </header>
