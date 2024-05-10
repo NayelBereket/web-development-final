@@ -11,7 +11,7 @@
       <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
       <p class="text-lg mb-8">Our mission at Skilled Strings is not just to teach guitar but to inspire a lifelong love of music. We believe that learning an instrument should be an enjoyable and rewarding experience, and we strive to create a supportive and encouraging environment where students can flourish. Whether you dream of playing in a band, writing your own songs, or simply strumming your favorite tunes, Skilled Strings is here to help you achieve your musical goals.</p>
       <p class="text-lg font-semibold mb-8">Join us at Skilled Strings and embark on an exciting musical journey filled with discovery, growth, and endless possibilities. Let's make beautiful music together! </p>
-      <nuxt-link to="/page3" class="bg-gull-gray-500 hover:bg-buttercup-500 text-white font-bold font-lg py-4 px-6 rounded">
+      <nuxt-link to="/page3" class="bg-buttercup-300 hover:bg-buttercup-500 text-white font-bold font-lg py-4 px-6 rounded">
         See Our Services
       </nuxt-link>
     </div>
