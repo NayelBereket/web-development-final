@@ -10,6 +10,9 @@
                             <span class="dark:text-white">Strings</span>
                         </nuxt-link>
                     </div>
+                        <nuxt-link to="/">
+                    <div class="text-center text-sm text-white gap-1">Easy Way to learn Guitar</div>
+                        </nuxt-link>
                 </nav> 
             </div>
                 
