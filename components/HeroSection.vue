@@ -1,22 +1,39 @@
 <template>
-    <div>
-      <HeroSection image="/Users/lenovo/Downloads/Skilled Strings Logo.png">
-        <h1 class="text-4xl font-bold mb-4">Welcome to Skilled Strings</h1>
-        <p class="text-lg mb-8">Learn guitar from experienced tutors in your local area.</p>
-        <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-          Get Started
-        </button>
-      </HeroSection>
+  <div :style="{ backgroundImage: `url(${image})` }" class="hero-container relative">
+    <!-- Tint overlay -->
+    <div class="absolute inset-0 bg-gull-gray-800 opacity-50"></div>
+
+    <!-- Content -->
+    <div class="container mx-auto px-4 py-8 relative z-10 text-white">
+      <slot></slot>
     </div>
-  </template>
-  
-  <script>
-  import HeroSection from '@/components/HeroSection.vue'
-  
-  export default {
-    components: {
-      HeroSection
-    }
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    image: { type: String, required: true }
   }
-  </script>
-  
+}
+</script>
+
+<style scoped>
+/* Styles for the hero container */
+.hero-container {
+  position: relative;
+  height: 400px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Tint overlay */
+.hero-container .opacity-50 {
+  /* Adjust opacity and color as needed */
+}
+
+/* Styles for the content */
+.container {
+  position: relative;
+}
+</style>
