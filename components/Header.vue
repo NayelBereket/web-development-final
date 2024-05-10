@@ -19,7 +19,7 @@
             <nav class="text-gull-gray-200 text-md flex flex-row justify-end gap-4">
                 <!--nuxt-link to="/"> Home </nuxt-link-->
                 <nuxt-link to="/page1" class="text-gull-gray-200 hover:text-buttercup-500"> About Us </nuxt-link>
-                <nuxt-link to="/page2" class="text-gull-gray-200 hover:text-buttercup-500"> Contact US </nuxt-link>
+                <nuxt-link to="/page2" class="text-gull-gray-200 hover:text-buttercup-500"> Contact Us </nuxt-link>
                 <nuxt-link to="/page3" class="text-gull-gray-200 hover:text-buttercup-500"> Our Services </nuxt-link>
                 <nuxt-link to="/page4" class="text-gull-gray-200 hover:text-buttercup-500"> Blog </nuxt-link>
                 <nuxt-link to="/page5" class="text-gull-gray-200 hover:text-buttercup-500"> Our Instructors </nuxt-link>

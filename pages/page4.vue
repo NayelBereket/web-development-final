@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto px-4 py-8">
-      <h2 class="text-3xl font-bold mb-4">Voice of Previous Students</h2>
+      <h2 class="text-3xl font-bold mb-4">In the Words of Our Previous Students</h2>
       <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-3 gap-4">
         <div class="bg-gull-gray-100 p-4 rounded">
           <p class="text-lg font-semibold">John Doe</p>
@@ -35,6 +35,29 @@
         </div>
         <!-- Add more testimonials -->
       </div>
+      
+    </div>
+    <div class="container mx-auto px-4 py-8">
+      <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-2 gap-4">
+        <div class="bg-gull-gray-100 p-4 rounded">
+          <p class="text-lg font-semibold">Calvin McMutch</p>
+          <p class="text-sm">"Embarking on my guitar learning journey with Skilled Strings has been nothing short of transformative. From the first phone call inquiry to each lesson attended, I've felt supported by a team that truly understands my aspirations. The instructors aren't just skilled musicians; they're mentors who patiently guide me through every chord and technique. With their tailored approach, I've seen remarkable progress in a short time, gaining confidence with each strum.
+
+Skilled Strings' curriculum strikes the perfect balance between theory and practical application, ensuring that every session is both enriching and enjoyable. Stepping into their studio feels like entering a sanctuary of music where I'm encouraged to explore and grow. Whether I'm a beginner or an experienced player seeking refinement, Skilled Strings has become my haven for musical growth and self-discovery."</p>
+        </div>
+        <!-- Add more testimonials -->
+      </div>
+      
+    </div>
+    <div class="container mx-auto px-4 py-8">
+      <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-2 gap-4">
+        <div class="bg-white p-4 rounded">
+          <p class="text-lg font-semibold text-white">Markus Alibaster</p>
+          <p class="text-sm text-white">"As a busy professional, finding time for hobbies can be tough. Skilled Strings offers flexible scheduling options that fit my busy lifestyle. Plus, the instructors are top-notch and really know their stuff. Thanks for helping me discover my love for playing guitar!"</p>
+        </div>
+        <!-- Add more testimonials -->
+      </div>
+      
     </div>
   </template>
   
